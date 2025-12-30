@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Camera_Control : MonoBehaviour
@@ -11,4 +9,5 @@ public class Camera_Control : MonoBehaviour
     {
         transform.position = new Vector3(player.position.x, player.position.y + CameraPosition.y, CameraPosition.z);
     }
+    //相机变换位置为玩家X位置，玩家Y位置+偏移量，相机Z位置
 }
